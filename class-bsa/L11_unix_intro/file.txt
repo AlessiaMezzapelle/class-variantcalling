@@ -1,0 +1,6 @@
+riga 1
+riga due 
+riga tre
+riga quattro 
+rig cinque 
+riga sei 
