@@ -1,7 +1,3 @@
-##Vado in class-bsa del prof, lezione 20 e da li seguo il codice##
-##Creo rawdata##
-##E vado avanti##
-
 cd /home/gitpod/datiesame
 mkdir -p rawdata
 
