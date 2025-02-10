@@ -1,11 +1,13 @@
 cd /home/gitpod/datiesame
 mkdir -p rawdata
+tar -xvzf data_rnaseq.tar.gz -C rawdata/
 
 ### check if you can execute salmon by typing "salmon" on the terminal
 salmon
 ## sometimes it fails on RStudio terminal, on CodeSpaces while it works on GitPod
 ## export PATH=${PATH}:/usr/local/bin
- 
+
+cd rawdata
 for sample in `ls *_1.fasta.gz`
 do
 index="/home/gitpod/datiesame/datasets_reference_only/trascriptome/chr21_transcripts_index"
